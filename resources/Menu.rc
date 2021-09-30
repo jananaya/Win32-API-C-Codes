@@ -1,0 +1,11 @@
+#include "resources/resource.h"
+
+MENU MENU
+BEGIN
+    POPUP "&Principal"
+    BEGIN
+        MENUITEM "&Prueba",         CM_PRUEBA
+        MENUITEM SEPARATOR
+        MENUITEM "&Salir",          CM_SALIR 
+    END
+END
